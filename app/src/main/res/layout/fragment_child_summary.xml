@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:id="@+id/child_overview_fragment"
+    android:layout_height="match_parent" tools:context="com.example.peterjin.firstapp.ChildSummaryFragment">
+
+    <ImageView
+        android:id="@+id/summary_image"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_gravity="center_vertical"/>
+    <TableLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="100dip">
+    <TableRow>
+        <TextView android:id="@+id/name_key"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView android:id="@+id/name_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:id="@+id/id_key"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView android:id="@+id/id_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:id="@+id/gender_key"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView android:id="@+id/gender_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:id="@+id/reg_date_key"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView android:id="@+id/reg_date_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:id="@+id/lost_date_key"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView android:id="@+id/lost_date_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    </TableLayout>
+</LinearLayout>
